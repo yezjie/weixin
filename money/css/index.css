@@ -1,0 +1,78 @@
+*{ margin:0; padding:0; }
+body{ font:16px/1.5 Arial,\5B8B\4F53,Helvetica; color: #333; }
+#load{ position: absolute; left:0; right:0; top:0; bottom:0; margin: auto; width:80%; }
+#box{ display: none; background: url(../img/bg.png)0 0 /100%,100%; position: absolute; height: 100%; width: 100%; }
+#box>img{ position: absolute; }
+#bigmon{ width: 100%; height: 100%; }
+#down{ width: 100%; left:0; bottom:0; }
+#logo{ width: 54%; left:15px; top:10px; }
+#tiao{ width: 48.9%; left: 21.4%; top:12.5%; }
+#ni{ width: 94.2%; left:2.5%; top:25%; }
+#yin{ width: 77%; left: 13.7%; top:33.7%; }
+#dan{ width: 15.1%; left:0%; top:35.4%; }
+#wen{ width: 20.3%; left:73.1%; top:14.4%; }
+#money{ width: 20.3%; left:5.7%; top:13.6%; }
+#btns{ padding: 1% 0 0 1%; width: 90.6%; height: 10.3%; background: url(../img/btn.png) 0 0 /100% 100%; position: absolute; left:4.8%; bottom:5.6%; }
+#btns img{ width: 100%; top:0; left:0; }
+#btns button{ width: 24%;background: #fff; height: 98%; opacity: 0; }
+#start{ width: 40%; bottom:21.5%; left:30%;  }
+#hand{ width: 13.75%; left: 58.2%; bottom:24.4%; }
+
+/*弹窗*/
+.zhe{display: none; position: absolute; width: 100%;height: 100%; background: rgba(0,0,0,0.5); }
+.t_box{display: none; position: absolute; width: 74%; height: 48.2%; left: 13%; top:18.5%; }
+.t_box>img{ float: right; height: 7%; }
+.nick{ width:37%; overflow:hidden;text-overflow:ellipsis;white-space: nowrap; }
+.s_box{ overflow: auto; text-align: center; margin-top: 9%; height: 90%; border:2px solid #e33145; border-radius: 10px; background: #ffead1;  }
+#forms .s_box img{ width: 95%; margin-top: 3%; }
+#forms .s_box input{color: #333; width: 80%; border:2px solid #e33145; background: #f2bb00; font-size: 16px; padding: 3% 1%; margin-top: 5%; border-radius: 5px; }
+#forms .s_box input::-webkit-input-placeholder{ color: #333; }
+#forms .s_box button{ width: 55%; background: #e33145; color: #fff; font-size: 16px; border-radius: 5px; padding: 2% 3%; border:none; outline: none; cursor:pointer; margin-top: 3%;}
+#noun .s_box>img{ width: 55%; margin-top: 2%;  }
+#noun ul li img:nth-child(2){ border-radius:50%; }
+#noun .s_box li{padding: 2% 0; overflow: hidden; width: 100%; list-style: none;border-bottom:1px dotted #333;  }
+#noun .s_box li .minc{ width:9%; float: left; text-align: center; margin:4% 4% 0 4%;}
+#noun .s_box li img.headerimg{ width: 18%; float: left; margin-right: 2%; }
+#noun .s_box li span{ float: left; margin-top:5%; }
+#noun .s_box li span:last-child{ float: right; margin-right:10px;  }
+#rule .s_box h2,#prize .s_box h2,#instructions .s_box h2{ margin: 3% 5%; }
+#rule .s_box p,#prize .s_box p,#instructions .s_box p{ text-align: left; margin-bottom: 15px; padding: 0 5%; }
+
+
+/*第二页*/
+#box2{overflow: hidden; display:none; background: url(../img/bg2.png)0 0 /100%,100%; position: absolute; height: 100%; width: 100%; }
+#box2>img{ position: absolute; }
+#bg2{ width: 100%; height: 100%; }
+#down2{ width: 100%; bottom:0; }
+.zmon{position: absolute; width: 56.8%; left:20.6%; top:59.4%; }
+#zmon{ opacity: 0;z-index: 5; }
+#quan{ position: absolute; top:12.7%; left:8.7%; width: 82.6%; }
+#quan>img{ width: 100%; }
+#quan #lun{overflow: hidden; width: 100%; height:63%; position: absolute; top:12%; }
+#quan ul{ position: absolute; top:0; }
+#quan li { list-style: none; text-align: center; }
+#quan li img{ width: 90%; }
+#timestore{ position: absolute; top:32.7%; left:20%; width: 59.5%; }
+#timestore img{ width: 100%; }
+#timestore span{ color: #fff; position: absolute;font-size: 24px; top:50%; margin-top: -20px; }
+#timestore span:nth-child(1){ left:7.7%; }
+#timestore span:nth-child(2){ left:31%; }
+#timestore span:nth-child(3){ left:54.8%; }
+#timestore span:nth-child(4){ left:80.5%; }
+#hand2{ width: 36.7%;left:61.8%;top:66.9%; z-index: 1; }
+#monbox{ position: absolute; width: 100%; height: 100%; }
+
+/*第三页*/
+#box3{text-align: center; display: none; background: url(../img/bg3.png)0 0 /100%,100%; position: absolute; height: 100%; width: 100%; }
+#bg3{position: absolute; width: 100%; height: 100%; left:0; top:0; }
+#tit{ width: 69.5%;margin-top:21.2%; }
+#box3 .btn{display: flex; justify-content: space-around; width: 100%; height: 16.5%; position: absolute; top:56.2%; }
+#box3 .btn img{ height: 100%;margin:0 10.7%; }
+#box3 p span{ font-weight: 700; font-size: 50px;  }
+#box3 p{ color: #fff; }
+.minbox{ background: #fff; border-radius: 5px; display:inline-block; margin:20px auto; padding: 5px 10px;  }
+.minbox span{ color: #d21026; }
+
+/*分享页面*/
+#box4{text-align: center; display: none; background: url(../img/fenxiang.png)0 0 /100%,100%; position: absolute; height: 100%; width: 100%; }
+
